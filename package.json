@@ -1,0 +1,22 @@
+{
+  "name": "pdf-metadata",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "5.4.624",
+    "cbor-x": "1.6.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.1",
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "packageManager": "pnpm@10.17.1"
+}

@@ -1,0 +1,7 @@
+allowBuilds:
+  esbuild: true
+  cbor-extract: false
+onlyBuiltDependencies:
+  - esbuild
+ignoredBuiltDependencies:
+  - cbor-extract
